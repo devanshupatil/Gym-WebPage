@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background: url('pexels-anush-1229356.jpg');
+    background-size: cover;
+    height: 1000px;
+}
+
+.right {
+    position: absolute;
+    top: 34px;
+    right: 34px;
+    display: inline-block;
+}
+
+.left {
+    position: absolute;
+    top: -19px;
+    left: 0;
+    display: inline-block;
+}
+
+.left img {
+    width: 150px;
+    filter: invert(100%);
+    cursor: pointer;
+}
+
+.left img:hover {
+    filter: invert(70%);
+}
+
+.container {
+
+    /* border: 2px solid white; */
+    /* background: #2f2e2e; */
+    margin: 106px 70px;
+    padding: 75px 0px;
+    width: 34%;
+    border-radius: 28px;
+}
+
+.container h1 {
+    font-family: "Bungee Spice", serif;
+    /* font-family: "Coiny", system-ui; */
+    text-align: center;
+
+}
+
+.mid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34%;
+    margin: 34px auto;
+    /* background: #2f2e2e; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar li {
+    display:flex;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.from-group input {
+    font-family: "Coiny", system-ui;
+    text-align: center;
+    display: block;
+    width: 91%;
+    padding: 0px;
+    border: 2px solid black;
+    margin: 9px auto;
+    font-size: 17px;
+    border-radius: 6px;
+}
+
+.btn {
+    margin: 0 6px;
+    background-color: rgb(35, 33, 33);
+    color: white;
+    padding: 7px 13px;
+    border: 1px solid gray;
+    border-radius: 7px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(48, 47, 47);
+}
+
+.navbar li a {
+  
+    color: white;
+    text-decoration: none;
+    padding: 5px 9px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: gray;
+}
+
+.container button{
+    display: block;
+    width: 22%;
+    margin: 20px auto;
+}
